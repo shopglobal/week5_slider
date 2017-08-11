@@ -22,7 +22,7 @@ var count = 0;
 // This function will replace display whatever image it's given
 // in the 'src' attribute of the img tag.
 function displayImage() {
- $("#image-holder").html("<img src=" + images[count] + " width='400px'>");
+ $("#image-holder").html("<img src=" + images[count] + " width='640px'>");
 }
 
 function nextImage() {
