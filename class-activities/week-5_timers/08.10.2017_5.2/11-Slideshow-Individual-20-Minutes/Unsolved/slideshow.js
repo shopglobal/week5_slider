@@ -10,14 +10,14 @@ var showImage;
 // Count will keep track of the index of the currently displaying picture.
 var count = 0;
 
-// TODO: Use jQuery to run "startSlideshow" when we click the "start" button.
- $("#start").on("click", function() {
+// // TODO: Use jQuery to run "startSlideshow" when we click the "start" button.
+  $( window ).on( "load", function() {
  	startSlideshow();
  });
-// TODO: Use jQuery to run "stopSlideshow" when we click the "stop" button.
- $("#stop").on("click", function() {
- 	stopSlideshow();
- });
+// // TODO: Use jQuery to run "stopSlideshow" when we click the "stop" button.
+//  $("#stop").on("click", function() {
+//  	stopSlideshow();
+//  });
 
 // This function will replace display whatever image it's given
 // in the 'src' attribute of the img tag.
