@@ -36,7 +36,7 @@ var stopwatch = {
 
     // DONE: Use setInterval to start the count here and set the clock to running.
     if (!clockRunning) {
-        intervalId = setInterval(stopwatch.count, 1000);
+        intervalId = setInterval(stopwatch.time, 1000);
         clockRunning = true;
     }
   },
